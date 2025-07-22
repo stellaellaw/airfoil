@@ -1,4 +1,30 @@
 # airfoil
 
-This software is aimed to classify airfoil types into different categories of aerodynamic features using a neural network trained with NACA airfoil data. Airfoil parameters such as the camber and thickness is compared and the variation of lift and drag with angle of attack is also acknowledged. The unitless parameters of lift and drag coefficents are the primary variables to be compared, as they can be related even with different sized airfoils and aircrafts. The goal of this software is to be able to accurately predict the performance of an airfoil given its parameters. 
-Patch
+# Airfoil Neural Network Project
+
+## Project Goal
+
+Build a neural network to classify airfoils based on their geometrical parameters and predict their aerodynamic coefficients (lift and drag).
+
+- **Input:** Numerical values representing airfoil geometry (e.g., thickness, camber, chord length).
+- **Output:** Predicted lift and drag coefficients for an airfoil (e.g., NACA 2412).
+
+## Project Structure
+
+- `data/` – Store your datasets here.
+- `notebooks/` – Jupyter notebooks for exploration and experiments.
+- `src/` – Source code for data processing, modeling, and utilities.
+
+## Getting Started
+
+1. Clone this repository.
+2. Install dependencies:  
+   ```
+   pip install -r requirements.txt
+   ```
+3. Add your data to the `data/` folder.
+4. Start experimenting in the `notebooks/` directory or build scripts in `src/`.
+
+## Dependencies
+
+See `requirements.txt` for package requirements.
